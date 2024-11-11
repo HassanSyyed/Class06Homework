@@ -4,7 +4,7 @@ export default function HeroSection() {
       <div className="flex py-4 pb-4 justify-center bg-white">
      
         <div className="w-full max-w-4xl gap-4">
-          <h1 className="py-1 font-bold text-center mb-4 text-2xl w-full text-black ">
+          <h1 className="py-1 font-bold text-center mb-8 text-3xl w-full text-black ">
             Sell Your Car on PakWheels and Get the Best Price
           </h1>
          

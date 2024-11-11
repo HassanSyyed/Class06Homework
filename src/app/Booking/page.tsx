@@ -66,7 +66,7 @@ export default function Booking() {
                     <div className="mb-4">
                     <Link href="/Footer">
                         <button className="bg-blue-700 text-white py-2 px-4 rounded-md hover:bg-blue-900">
-                            Order Placed
+                             Place Order
                         </button>
                         </Link>
                     </div>

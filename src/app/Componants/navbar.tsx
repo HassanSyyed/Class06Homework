@@ -1,10 +1,9 @@
-
 "use client"
 import React from "react"
 import Link from "next/link"
 export default function Navbar() {
     return (
-
+// bg-gradient-to-r m-32 mb-0
         <div className="flex flex-col justify-center">
             <nav className=" px-4 flex justify-center items-center flex-row w-full text-white font-medium bg-slate-900">
                 <div className="mb-4 sm:mb-0" >
@@ -13,14 +12,14 @@ export default function Navbar() {
                 < div className="w-full sm:w-auto mb-4 sm:mb-0">
  
                     <ul className="flex flex-row ">
-                        <li><Link href="/banner" className="hidden lg:inline hover:text-red-600 hover:bg-white px-3 py-2 rounded-md text-sm font-medium">UsedCars</Link></li>
-                        <li><Link href="/Featured" className=" hover:text-red-600 hover:bg-white px-3 py-2 rounded-md text-sm font-medium">New Cars</Link></li>
+                        <li><Link href="/banner" className="hidden lg:inline hover:text-red-600 hover:bg-white px-3 py-2 rounded-md text-sm font-medium">Search</Link></li>
+                        <li><Link href="/Feactured" className=" hover:text-red-600 hover:bg-white px-3 py-2 rounded-md text-sm font-medium">New Cars</Link></li>
                         <li><Link href="/bikes" className="hover:text-red-600 hover:bg-white px-3 py-2 rounded-md text-sm font-medium">Bikes</Link></li>
                          <li><Link href="/autostore" className="hover:text-red-600 hover:bg-white px-3 py-2 rounded-md text-sm font-medium">Auto store</Link></li>
-                        <li><Link href="/vidios" className=" hover:text-red-600 hover:bg-white px-3 py-2 rounded-md text-sm font-medium">Videos</Link></li>
-                        <li><Link href="/forms" className="hidden lg:inline hover:text-red-600 hover:bg-white px-3 py-2 rounded-md text-sm font-medium">Forms</Link></li>
-                        <li><Link href="/Footer" className="hidden lg:inline hover:text-red-600 hover:bg-white px-3 py-2 rounded-md text-sm font-medium" >Blog</Link></li>
-                        <li><Link href="/Order" className="hidden lg:inline hover:text-red-600 hover:bg-white px-3 py-2 rounded-md text-sm font-medium">More</Link></li>
+                        <li><Link href="/vidios" className=" hover:text-red-600 hover:bg-white px-3 py-2 rounded-md text-sm font-medium">Vidios</Link></li>
+                        <li><Link href="/forms" className="hidden lg:inline hover:text-red-600 hover:bg-white px-3 py-2 rounded-md text-sm font-medium">Forums</Link></li>
+                        <li><Link href="/Footer" className="hidden lg:inline hover:text-red-600 hover:bg-white px-3 py-2 rounded-md text-sm font-medium" >Contact Us</Link></li>
+                        <li><Link href="/Order" className="hidden lg:inline hover:text-red-600 hover:bg-white px-3 py-2 rounded-md text-sm font-medium">Booking</Link></li>
 
                     </ul>                        
                 </div>
@@ -41,8 +40,3 @@ export default function Navbar() {
 
     )
 }
-
-    
-
-    
-    

@@ -57,7 +57,7 @@ export default function HondaCivicDes() {
                             <h1 className="font-semibold">Transmission: Autometic</h1>
                         </div>
                     </div>
-                    <h2 className="text-green-500 py-1 text-center text-2xl font-semibold"> PKR 12.0 crore</h2>
+                    <h2 className="text-green-500 py-1 text-center text-2xl font-semibold"> PKR 86.6 lacs</h2>
                 </div>
                 <div className="py-3">
                     <Link href="/Featured">
