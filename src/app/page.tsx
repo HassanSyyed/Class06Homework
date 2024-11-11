@@ -1,5 +1,5 @@
 import React from "react"
-import Navbar from"./Componants/navbar";
+import Navbar from"./Components/navbar";
 import Banner from "./Banner/page";
 import HeroSection from "./Herosection/page";
 import Featured from "./Featured/page";
